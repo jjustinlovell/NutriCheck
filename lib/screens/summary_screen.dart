@@ -132,7 +132,7 @@ class SummaryState extends State<SummaryScreen> {
     return Container(
       height: 50, // Adjust height to match your row's content
       width: 3, // Can be thinner or thicker as per your design
-      color: Color.fromRGBO(252, 223, 181, 1),
+      color: Color(0xFFD8BCFF),
     );
   }
 
@@ -150,7 +150,7 @@ class SummaryState extends State<SummaryScreen> {
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.w700,
-              color: Color.fromRGBO(255, 99, 0, 1),
+              color: Color(0xFF7327C4),
             ),
           ),
           TextSpan(
@@ -158,14 +158,14 @@ class SummaryState extends State<SummaryScreen> {
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w600,
-              color: Color.fromRGBO(247, 145, 1, 1),
+              color: Color(0xFF924CF5),
             ),
           ),
           TextSpan(
             text: description,
             style: TextStyle(
               fontSize: 17,
-              color: Color.fromRGBO(247, 145, 1, 1),
+              color: Color(0xFF924CF5),
             ),
           ),
         ],
@@ -183,11 +183,11 @@ class SummaryState extends State<SummaryScreen> {
         children: <TextSpan>[
           TextSpan(
             text: '$percentage% of\n',
-            style: TextStyle(fontSize: 17, color: Color.fromRGBO(255, 99, 0, 1), fontWeight: FontWeight.w500),
+            style: TextStyle(fontSize: 17, color: Color(0xFF7327C4), fontWeight: FontWeight.w500),
           ),
           TextSpan(
             text: 'daily needs',
-            style: TextStyle(fontSize: 17, color: Color.fromRGBO(255, 99, 0, 1), fontWeight: FontWeight.w500),
+            style: TextStyle(fontSize: 17, color: Color(0xFF7327C4), fontWeight: FontWeight.w500),
           ),
         ],
       ),
@@ -218,7 +218,7 @@ class SummaryState extends State<SummaryScreen> {
         width: 95,
         height: 95,
         decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 239, 221, 1),
+          color: Color(0xFFE6D4FF),
           borderRadius: BorderRadius.circular(15),
         ),
         child: Stack(
@@ -229,7 +229,7 @@ class SummaryState extends State<SummaryScreen> {
                 Container(
                   padding: EdgeInsets.symmetric(vertical: 7),
                   decoration: BoxDecoration(
-                    color: Color.fromRGBO(254, 109, 2, 1),
+                    color: Color(0xFF8033D2),
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
@@ -292,7 +292,7 @@ class SummaryState extends State<SummaryScreen> {
   Widget allergenBox(BuildContext context, List<dynamic> allergens) {
     String text;
     Widget icon = SizedBox(width: 0);
-    Color backgroundColor = Color.fromRGBO(255, 193, 103, 1);
+    Color backgroundColor = Color(0xFFEADCEE);
     Color textColor = Colors.black;
 
     // Determine the text and possibly add an icon based on allergens
@@ -304,7 +304,7 @@ class SummaryState extends State<SummaryScreen> {
         padding: EdgeInsets.only(right: 10),  // Add padding to the right of the icon
         child: SvgPicture.asset('assets/summary_screen/warning_sign.svg', width: 17, height: 17),
       );
-      backgroundColor = Color.fromRGBO(254, 109, 2, 1);  // Bright red color for allergens present
+      backgroundColor = Color(0xFF8033D2);  // Bright red color for allergens present
       textColor = Colors.white; // White text color for better contrast on red background
     }
 
@@ -439,7 +439,7 @@ class SummaryState extends State<SummaryScreen> {
             ),
             TextSpan(
               text: '/ 5', 
-              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 30, color: Color.fromRGBO(247, 145, 1, 1))
+              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 30, color: Color(0xFF924CF5))
             ),
           ],
         ),

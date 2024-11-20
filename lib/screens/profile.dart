@@ -33,7 +33,7 @@ class InfoCard extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20.0),
-        color: const Color.fromRGBO(255, 246, 235, 1),
+        color: const Color(0xFFFBEBFF),
       ),
       padding: const EdgeInsets.all(4),
       child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -50,7 +50,7 @@ class InfoCard extends StatelessWidget {
                 fontFamily: 'Mulish',
                 fontWeight: FontWeight.w600,
                 fontSize: 14,
-                color: Color.fromRGBO(247, 145, 1, 0.6),
+                color: Color.fromRGBO(155, 89, 182, 0.6),
               ),
             ),
             Text(
@@ -60,7 +60,7 @@ class InfoCard extends StatelessWidget {
                 fontFamily: 'Mulish',
                 fontWeight: FontWeight.w700,
                 fontSize: 18,
-                color: Color.fromRGBO(247, 145, 1, 1),
+                color: Color.fromRGBO(155, 89, 182, 1),
               ),
             ),
           ],
@@ -167,7 +167,7 @@ class BMIGauge extends StatelessWidget {
                 GaugeRange(
                     startValue: 18.5, endValue: 24.9, color: Colors.green),
                 GaugeRange(
-                    startValue: 24.9, endValue: 29.9, color: Colors.orange),
+                    startValue: 24.9, endValue: 29.9, color: Colors.purple),
                 GaugeRange(startValue: 29.9, endValue: 40, color: Colors.red),
               ],
               pointers: <GaugePointer>[
@@ -195,7 +195,7 @@ class BMIIndicator extends StatelessWidget {
     return Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20.0),
-          color: const Color.fromRGBO(254, 235, 207, 1),
+          color: const Color(0xFFFBEBFF),
         ),
         padding: const EdgeInsets.only(right: 21, left: 21, top: 15, bottom: 10),
         child: Column(
@@ -219,7 +219,7 @@ class BMIIndicator extends StatelessWidget {
                       fontFamily: 'Mulish',
                       fontWeight: FontWeight.w600,
                       fontSize: 14,
-                      color: Color.fromRGBO(253, 164, 37, 1),
+                      color: Color(0xFFFF21FF),
                     ),
                   ),
                 ),
@@ -232,7 +232,7 @@ class BMIIndicator extends StatelessWidget {
                       fontFamily: 'Mulish',
                       fontWeight: FontWeight.w700,
                       fontSize: 18,
-                      color: Color.fromRGBO(247, 145, 1, 1),
+                      color: Color.fromRGBO(155, 89, 182, 1),
                     ),
                   ),
                 )
@@ -323,7 +323,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             fontFamily: 'Mulish',
             fontWeight: FontWeight.w700,
             fontSize: 22,
-            color: Color.fromRGBO(247, 145, 1, 1),
+            color: Color.fromRGBO(155, 89, 182, 1),
           ),
         ),
         centerTitle: true,
@@ -361,7 +361,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 fontFamily: 'Mulish',
                 fontWeight: FontWeight.w700,
                 fontSize: 22,
-                color: Color.fromRGBO(247, 145, 1, 1),
+                color: Color.fromRGBO(155, 89, 182, 1),
               ),
             ),
 
@@ -423,7 +423,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         top: 15, bottom: 15, left: 20, right: 20),
                     constraints: const BoxConstraints(minHeight: 140),
                     decoration: BoxDecoration(
-                      color: const Color.fromRGBO(254, 235, 207, 1),
+                      color: const Color(0xFFFBEBFF),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
@@ -437,7 +437,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             fontFamily: 'Mulish',
                             fontWeight: FontWeight.w600,
                             fontSize: 16,
-                            color: Color.fromRGBO(247, 145, 1, 1),
+                            color: Color.fromRGBO(155, 89, 182, 1),
                           ),
                         ),
                         Row(
@@ -461,7 +461,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                         ),
                                       ),
                                       backgroundColor:
-                                          const Color(0xFFFEA72D),
+                                          const Color(0xFFB785FF),
                                       shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(17),
@@ -618,7 +618,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                     Text(
                       '  Name',
                       style: TextStyle(
-                        // color: isName ? Colors.orange : Color.fromARGB(255, 40, 255, 40),
+                        // color: isName ? Colors.purple : Color.fromARGB(255, 40, 255, 40),
                         color: Color.fromRGBO(
                             0, 0, 0, 1), // Set text color to your preference
                         fontSize: 15, // Adjust font size as needed
@@ -675,7 +675,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(25.0),
-                              borderSide: const BorderSide(color: Colors.orange),
+                              borderSide: const BorderSide(color: Colors.purple),
                             ),
                             contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                           ),
@@ -744,7 +744,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(25.0),
-                                  borderSide: const BorderSide(color: Colors.orange),
+                                  borderSide: const BorderSide(color: Colors.purple),
                                 ),
                                 contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                               ),
@@ -808,7 +808,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(25.0),
-                                  borderSide: const BorderSide(color: Colors.orange),
+                                  borderSide: const BorderSide(color: Colors.purple),
                                 ),
                                 contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                               ),
@@ -879,7 +879,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(25.0),
-                                  borderSide: const BorderSide(color: Colors.orange),
+                                  borderSide: const BorderSide(color: Colors.purple),
                                 ),
                                 contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                               ),
@@ -930,12 +930,12 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                               height: 0.05 * MediaQuery.of(context).size.height,
                               decoration: BoxDecoration(
                                 color: isMaleChecked
-                                    ? Colors.orange
+                                    ? Colors.purple
                                     : Colors.transparent,
                                 borderRadius: BorderRadius.circular(15),
                                 border: Border.all(
                                     color: isMaleChecked
-                                        ? Colors.orange
+                                        ? Colors.purple
                                         : Colors.grey),
                               ),
                               child: Center(
@@ -965,12 +965,12 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                               height: 0.05 * MediaQuery.of(context).size.height,
                               decoration: BoxDecoration(
                                 color: isFemaleChecked
-                                    ? Colors.orange
+                                    ? Colors.purple
                                     : Colors.transparent,
                                 borderRadius: BorderRadius.circular(15),
                                 border: Border.all(
                                     color: isFemaleChecked
-                                        ? Colors.orange
+                                        ? Colors.purple
                                         : Colors.grey),
                               ),
                               child: Center(
@@ -1045,10 +1045,10 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                       width: 0.385 * MediaQuery.of(context).size.width,
                       height: 0.08 * MediaQuery.of(context).size.height,
                       decoration: BoxDecoration(
-                        color: isAct1 ? Colors.orange : Colors.transparent,
+                        color: isAct1 ? Colors.purple : Colors.transparent,
                         borderRadius: BorderRadius.circular(15),
                         border: Border.all(
-                            color: isAct1 ? Colors.orange : Colors.grey),
+                            color: isAct1 ? Colors.purple : Colors.grey),
                       ),
                       child: Center(
                         child: Text(
@@ -1083,10 +1083,10 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                       width: 0.385 * MediaQuery.of(context).size.width,
                       height: 0.08 * MediaQuery.of(context).size.height,
                       decoration: BoxDecoration(
-                        color: isAct2 ? Colors.orange : Colors.transparent,
+                        color: isAct2 ? Colors.purple : Colors.transparent,
                         borderRadius: BorderRadius.circular(15),
                         border: Border.all(
-                            color: isAct2 ? Colors.orange : Colors.grey),
+                            color: isAct2 ? Colors.purple : Colors.grey),
                       ),
                       child: Center(
                         child: Text(
@@ -1131,10 +1131,10 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                       width: 0.385 * MediaQuery.of(context).size.width,
                       height: 0.08 * MediaQuery.of(context).size.height,
                       decoration: BoxDecoration(
-                        color: isAct3 ? Colors.orange : Colors.transparent,
+                        color: isAct3 ? Colors.purple : Colors.transparent,
                         borderRadius: BorderRadius.circular(15),
                         border: Border.all(
-                            color: isAct3 ? Colors.orange : Colors.grey),
+                            color: isAct3 ? Colors.purple : Colors.grey),
                       ),
                       child: Center(
                         child: Text(
@@ -1169,10 +1169,10 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                       width: 0.385 * MediaQuery.of(context).size.width,
                       height: 0.08 * MediaQuery.of(context).size.height,
                       decoration: BoxDecoration(
-                        color: isAct4 ? Colors.orange : Colors.transparent,
+                        color: isAct4 ? Colors.purple : Colors.transparent,
                         borderRadius: BorderRadius.circular(15),
                         border: Border.all(
-                            color: isAct4 ? Colors.orange : Colors.grey),
+                            color: isAct4 ? Colors.purple : Colors.grey),
                       ),
                       child: Center(
                         child: Text(
@@ -1242,7 +1242,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                                             ),
                                           ),
                                           backgroundColor:
-                                              const Color(0xFFFEA72D),
+                                              const Color(0xFFB785FF),
                                           shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(17),
@@ -1365,7 +1365,7 @@ class _ProfileEditFormState extends State<ProfileEditForm> {
                                         height: 37,
                                         decoration: const BoxDecoration(
                                           shape: BoxShape.circle,
-                                          color: Color(0xFFFEA72D),
+                                          color: Color(0xFFB785FF),
                                         ),
                                         child: Center(
                                           child: SvgPicture.asset(

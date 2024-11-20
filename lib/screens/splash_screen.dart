@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen>
       body: Container(
         width: double.infinity,
         decoration: const BoxDecoration(
-          color: Color.fromRGBO(254, 109, 2, 1),
+          color: Color(0xFF8033D2),
         ),
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,

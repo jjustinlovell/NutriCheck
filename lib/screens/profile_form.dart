@@ -127,7 +127,7 @@ class _ProfileFormState extends State<ProfileForm> {
                   const Text(
                     'Tell us more!',
                     style: TextStyle(
-                      color: Color(0xFFFEA72D), // Set text color to orange
+                      color: Color(0xFFB785FF), // Set text color to orange
                       fontSize: 34, // Adjust font size as needed
                       fontWeight: FontWeight.w700,
                       fontFamily: 'Mulish',
@@ -136,11 +136,11 @@ class _ProfileFormState extends State<ProfileForm> {
                   SizedBox(height: 0.0000001 * MediaQuery.of(context).size.height), // Spacer between "Tell us more!" and "So we can know you better."
                   // SizedBox(height: 20),
                   // Subtext
-                  Text(
+                  const Text(
                     'So we can know you better.',
                     style: TextStyle(
                       fontSize: 18, // Adjust font size as needed
-                      color: Colors.yellow[700],
+                      color: Color(0xFFB785FF),
                       fontWeight: FontWeight.w400,
                       fontFamily: 'Mulish',
                     ),
@@ -211,7 +211,7 @@ class _ProfileFormState extends State<ProfileForm> {
                             ),
                       focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(25.0),
-                              borderSide:  const BorderSide(color: Color(0xFFFEA72D)),
+                              borderSide:  const BorderSide(color: Color(0xFFB785FF)),
                       ),
                       contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 4),
                       ),
@@ -281,7 +281,7 @@ class _ProfileFormState extends State<ProfileForm> {
                             ),
                       focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(25.0),
-                              borderSide:  const BorderSide(color:  Color(0xFFFEA72D)),
+                              borderSide:  const BorderSide(color:  Color(0xFFB785FF)),
                             ),
                             contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                           ),
@@ -338,7 +338,7 @@ class _ProfileFormState extends State<ProfileForm> {
                             ),
                       focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(25.0),
-                              borderSide:  const BorderSide(color:  Color(0xFFFEA72D)),
+                              borderSide:  const BorderSide(color:  Color(0xFFB785FF)),
                           ),
                           contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5),
                           ),
@@ -406,7 +406,7 @@ class _ProfileFormState extends State<ProfileForm> {
                             ),
                       focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(25.0),
-                              borderSide:  const BorderSide(color:  Color(0xFFFEA72D)),
+                              borderSide:  const BorderSide(color:  Color(0xFFB785FF)),
                           ),
                           contentPadding: const EdgeInsets.fromLTRB(11, 0, 0, 3.5), // Adjust padding as needed
                           ),
@@ -453,9 +453,9 @@ class _ProfileFormState extends State<ProfileForm> {
                             width: 0.175 * MediaQuery.of(context).size.width,
                             height: 0.05 * MediaQuery.of(context).size.height,
                             decoration: BoxDecoration(
-                              color: isMaleChecked ?  const Color(0xFFFEA72D) : Colors.transparent,
+                              color: isMaleChecked ?  const Color(0xFFB785FF) : Colors.transparent,
                               borderRadius: BorderRadius.circular(15),
-                              border: Border.all(color: isMaleChecked ?  const Color(0xFFFEA72D) : Colors.grey),
+                              border: Border.all(color: isMaleChecked ?  const Color(0xFFB785FF) : Colors.grey),
                             ),
                             child: Center(
                               child: Text(
@@ -481,9 +481,9 @@ class _ProfileFormState extends State<ProfileForm> {
                             width: 0.175 * MediaQuery.of(context).size.width,
                             height: 0.05 * MediaQuery.of(context).size.height,
                             decoration: BoxDecoration(
-                              color: isFemaleChecked ?  const Color(0xFFFEA72D) : Colors.transparent,
+                              color: isFemaleChecked ?  const Color(0xFFB785FF) : Colors.transparent,
                               borderRadius: BorderRadius.circular(15),
-                              border: Border.all(color: isFemaleChecked ?  const Color(0xFFFEA72D) : Colors.grey),
+                              border: Border.all(color: isFemaleChecked ?  const Color(0xFFB785FF) : Colors.grey),
                             ),
                             child: Center(
                               child: Text(
@@ -556,9 +556,9 @@ class _ProfileFormState extends State<ProfileForm> {
                     width: 0.385 * MediaQuery.of(context).size.width,
                     height: 0.08 * MediaQuery.of(context).size.height,
                     decoration: BoxDecoration(
-                      color: isAct1 ?  const Color(0xFFFEA72D) : Colors.transparent,
+                      color: isAct1 ?  const Color(0xFFB785FF) : Colors.transparent,
                       borderRadius: BorderRadius.circular(15),
-                      border: Border.all(color: isAct1 ?  const Color(0xFFFEA72D) : Colors.grey),
+                      border: Border.all(color: isAct1 ?  const Color(0xFFB785FF) : Colors.grey),
                     ),
                     child: Center(
                       child: Text(
@@ -593,9 +593,9 @@ class _ProfileFormState extends State<ProfileForm> {
                     width: 0.385 * MediaQuery.of(context).size.width,
                     height: 0.08 * MediaQuery.of(context).size.height,
                     decoration: BoxDecoration(
-                      color: isAct2 ?  const Color(0xFFFEA72D) : Colors.transparent,
+                      color: isAct2 ?  const Color(0xFFB785FF) : Colors.transparent,
                       borderRadius: BorderRadius.circular(15),
-                      border: Border.all(color: isAct2 ?  const Color(0xFFFEA72D) : Colors.grey),
+                      border: Border.all(color: isAct2 ?  const Color(0xFFB785FF) : Colors.grey),
                     ),
                     child: Center(
                       child: Text(
@@ -640,9 +640,9 @@ class _ProfileFormState extends State<ProfileForm> {
                     width: 0.385 * MediaQuery.of(context).size.width,
                     height: 0.08 * MediaQuery.of(context).size.height,
                     decoration: BoxDecoration(
-                      color: isAct3 ?  const Color(0xFFFEA72D) : Colors.transparent,
+                      color: isAct3 ?  const Color(0xFFB785FF) : Colors.transparent,
                       borderRadius: BorderRadius.circular(15),
-                      border: Border.all(color: isAct3 ?  const Color(0xFFFEA72D) : Colors.grey),
+                      border: Border.all(color: isAct3 ?  const Color(0xFFB785FF) : Colors.grey),
                     ),
                     child: Center(
                       child: Text(
@@ -677,9 +677,9 @@ class _ProfileFormState extends State<ProfileForm> {
                     width: 0.385 * MediaQuery.of(context).size.width,
                     height: 0.08 * MediaQuery.of(context).size.height,
                     decoration: BoxDecoration(
-                      color: isAct4 ?  const Color(0xFFFEA72D) : Colors.transparent,
+                      color: isAct4 ?  const Color(0xFFB785FF) : Colors.transparent,
                       borderRadius: BorderRadius.circular(15),
-                      border: Border.all(color: isAct4 ?  const Color(0xFFFEA72D) : Colors.grey),
+                      border: Border.all(color: isAct4 ?  const Color(0xFFB785FF) : Colors.grey),
                     ),
                     child: Center(
                       child: Text(
@@ -719,7 +719,7 @@ class _ProfileFormState extends State<ProfileForm> {
                 margin: const EdgeInsets.only(top: 7.5),
                 padding: const EdgeInsets.only(top: 15, bottom: 15, left: 20, right: 20),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFFCDFB5),
+                  color: const Color(0xFFD8BCFF),
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: Column(
@@ -748,7 +748,7 @@ class _ProfileFormState extends State<ProfileForm> {
                                         fontFamily: 'Mulish',
                                       ),
                                     ),
-                                    backgroundColor: const Color(0xFFFEA72D),
+                                    backgroundColor: const Color(0xFFB785FF),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(17),
                                       side: const BorderSide(style: BorderStyle.none),
@@ -843,7 +843,7 @@ class _ProfileFormState extends State<ProfileForm> {
                                   height: 37,
                                   decoration: const BoxDecoration(
                                     shape: BoxShape.circle,
-                                    color: Color(0xFFFEA72D),
+                                    color: Color(0xFFB785FF),
                                   ),
                                   child: Center(
                                     child: SvgPicture.asset(
@@ -903,7 +903,7 @@ class _ProfileFormState extends State<ProfileForm> {
               }
             },
             style: ButtonStyle(
-              backgroundColor: WidgetStateProperty.all<Color>(const Color(0xFFFF8233)), // Button color
+              backgroundColor: WidgetStateProperty.all<Color>(const Color(0xFF893EE9)), // Button color
               shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15), // Rounded corners
